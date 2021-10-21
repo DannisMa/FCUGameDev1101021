@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class GameSystem : MonoBehaviour
 {
     public int ans; //用來存放答案的變數
@@ -13,8 +14,6 @@ public class GameSystem : MonoBehaviour
     void Start()
     {
         ans = 10;
-        input_text = GameObject.Find("InputField").transform.GetChild(1).gameObject; // 找到輸入文字的物件
-        show_text = GameObject.Find("Text"); // 找到顯示文字的物件
     }
 
     // Update is called once per frame
